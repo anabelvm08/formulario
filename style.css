@@ -1,0 +1,34 @@
+form table{
+    /*border: 5px;*/
+    border-collapse: collapse;
+    text-align: center;
+    height: 300px;
+}
+form label{
+    width:72px;
+    font-family: "Constantia", serif; 
+    font-size: 14pt;
+    display:inline-block;
+}
+fieldset{
+    border: 1px solid black;
+    width: 350px;
+    height: 380px;
+    margin:auto;
+    text-align: center;
+    background-color:beige;
+}
+input[type="submit"]{
+    width:100px;
+     font-size: 14pt;
+     font-family: Arial; 
+}
+input[type="reset"]{
+    width:100px;
+     font-size: 14pt;
+     font-family: Arial; 
+}
+#required_Name, #required_Apellido, #required_DNI, #required_Phone, 
+#required_Address, #required_Age, #required_Sex{
+    color: red;
+ }
